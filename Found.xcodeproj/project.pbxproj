@@ -13,6 +13,7 @@
 		F96F18981B1227BA00832E90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96F18971B1227BA00832E90 /* Images.xcassets */; };
 		F96F189B1B1227BA00832E90 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F96F18991B1227BA00832E90 /* LaunchScreen.xib */; };
 		F96F18A71B1227BA00832E90 /* FoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96F18A61B1227BA00832E90 /* FoundTests.swift */; };
+		F9E77C241B123C17006F6EBA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E77C231B123C17006F6EBA /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F96F18A01B1227BA00832E90 /* FoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F96F18A51B1227BA00832E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F96F18A61B1227BA00832E90 /* FoundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundTests.swift; sourceTree = "<group>"; };
+		F9E77C231B123C17006F6EBA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E77C241B123C17006F6EBA /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		F96F18821B1227BA00832E90 = {
 			isa = PBXGroup;
 			children = (
+				F9E77C231B123C17006F6EBA /* MapKit.framework */,
 				F96F188D1B1227BA00832E90 /* Found */,
 				F96F18A31B1227BA00832E90 /* FoundTests */,
 				F96F188C1B1227BA00832E90 /* Products */,
