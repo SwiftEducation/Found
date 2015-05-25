@@ -6,14 +6,16 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 */
 
 import UIKit
+import CoreLocation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    let locationManager = CLLocationManager()
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        locationManager.requestWhenInUseAuthorization()
         return true
     }
 
