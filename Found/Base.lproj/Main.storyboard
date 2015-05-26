@@ -18,6 +18,9 @@
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="hybrid" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BbC-cC-BGG">
                                 <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="9Nn-hB-TSF"/>
+                                </connections>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -28,6 +31,9 @@
                             <constraint firstItem="BbC-cC-BGG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xtn-Ue-U1J"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="BbC-cC-BGG" id="ezx-Kx-zwF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
