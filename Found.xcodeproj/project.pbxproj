@@ -13,6 +13,7 @@
 		F96F18981B1227BA00832E90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96F18971B1227BA00832E90 /* Images.xcassets */; };
 		F96F189B1B1227BA00832E90 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F96F18991B1227BA00832E90 /* LaunchScreen.xib */; };
 		F96F18A71B1227BA00832E90 /* FoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96F18A61B1227BA00832E90 /* FoundTests.swift */; };
+		F9760A321B15C9410040B312 /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9760A311B15C9410040B312 /* Pin.swift */; };
 		F9E77C241B123C17006F6EBA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E77C231B123C17006F6EBA /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		F96F18A01B1227BA00832E90 /* FoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F96F18A51B1227BA00832E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F96F18A61B1227BA00832E90 /* FoundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundTests.swift; sourceTree = "<group>"; };
+		F9760A311B15C9410040B312 /* Pin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
 		F9E77C231B123C17006F6EBA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,7 @@
 				F96F18901B1227BA00832E90 /* AppDelegate.swift */,
 				F96F18921B1227BA00832E90 /* ViewController.swift */,
 				F96F18941B1227BA00832E90 /* Main.storyboard */,
+				F9760A311B15C9410040B312 /* Pin.swift */,
 				F96F18971B1227BA00832E90 /* Images.xcassets */,
 				F96F18991B1227BA00832E90 /* LaunchScreen.xib */,
 				F96F188E1B1227BA00832E90 /* Supporting Files */,
@@ -216,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9760A321B15C9410040B312 /* Pin.swift in Sources */,
 				F96F18931B1227BA00832E90 /* ViewController.swift in Sources */,
 				F96F18911B1227BA00832E90 /* AppDelegate.swift in Sources */,
 			);
