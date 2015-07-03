@@ -1,4 +1,4 @@
-<img align="right" src="https://raw.github.com/SwiftEducation/Found/master/Found/Images.xcassets/AppIcon.appiconset/Icon-Spotlight-40@2x.png" />
+<img align="right" src="https://github.com/SwiftEducation/Found/raw/master/Found/Images.xcassets/AppIcon.appiconset/Icon-Spotlight-40@2x.png" />
 
 # Found
 
@@ -8,7 +8,7 @@ Introduce students to Map Kit and Core Location. Show students how to incorporat
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
