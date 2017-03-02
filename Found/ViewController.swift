@@ -14,7 +14,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        mapView.setUserTrackingMode(.Follow, animated: true)
+        mapView.setUserTrackingMode(.follow, animated: true)
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,7 +22,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    func mapView(mapView: MKMapView, didUpdateUserLocation userLocation: MKUserLocation) {
+    func mapView(_ mapView: MKMapView, didUpdate userLocation: MKUserLocation) {
         let center = CLLocationCoordinate2D(latitude: userLocation.coordinate.latitude,
             longitude: userLocation.coordinate.longitude)
         let width = 10000.0 // meters
@@ -31,7 +31,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         mapView.setRegion(region, animated: true)
     }
     
-    @IBAction func dropPin(sender: UIBarButtonItem) {
+    @IBAction func dropPin(_ sender: UIBarButtonItem) {
         let pin = Pin(coordinate: mapView.userLocation.coordinate)
         mapView.addAnnotation(pin)
     }
