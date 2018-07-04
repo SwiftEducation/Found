@@ -1,5 +1,9 @@
 <img align="right" src="https://github.com/SwiftEducation/Found/raw/master/Found/Images.xcassets/AppIcon.appiconset/Icon-Spotlight-40@2x.png" />
 
+## Deprecation Warning
+
+The Swift Education materials are out of date, and are no longer maintained.
+
 # Found
 
 ### Level 3, Five Lessons
